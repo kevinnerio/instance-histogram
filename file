@@ -1,0 +1,16 @@
+#histogram
+
+list = [9, 11, 4, 7, 0, 1, 2, 3]
+
+loop = len(list)-1
+counter = 0
+counterTwo = 0
+
+while counter < (len(list)):
+    print 'Array Field:', counter, ' ',
+    while counterTwo < list[counter]:
+        print '*',
+        counterTwo = counterTwo + 1
+    print '*\n'
+    counterTwo = 0
+    counter = counter+1
